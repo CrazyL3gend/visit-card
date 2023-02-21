@@ -91,6 +91,10 @@
 </style>
 
 <script>
+	const avatarUrl = new URL('/avatar.png', import.meta.url).href;
+	const githubUrl = new URL('/github.png', import.meta.url).href;
+	const telegramUrl = new URL('/telegram.png', import.meta.url).href;
+	const vkUrl = new URL('/vk.png', import.meta.url).href;
 
 	// eslint-disable-next-line no-unused-vars
 	function openInNewTab(url) {
