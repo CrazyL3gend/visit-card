@@ -6,13 +6,13 @@
         <img class='avatar-png' src='{avatarUrl}' alt='' />
     </span>
 
-	<span onclick="window.open('https://github.com/CrazyL3gend', '_blank').focus();" class='github'>
+	<span class='github'>
         <img class='github-png' src='{githubUrl}' alt='' />
     </span>
-	<span onclick="window.open('https://t.me/crazyl3gend', '_blank').focus();" class='telegram'>
+	<span class='telegram'>
         <img class='telegram-png' src='{telegramUrl}' alt='' />
     </span>
-	<span onclick="window.open('https://vk.com/crazyl3gend', '_blank').focus();" class='vk'>
+	<span class='vk'>
         <img class='vk-png' src='{vkUrl}' alt='' />
     </span>
 
