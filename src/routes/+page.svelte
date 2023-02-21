@@ -1,19 +1,19 @@
 <html>
 
-<div class="main">
+<div class='main'>
 
-    <span class="avatar">
-        <img class="avatar-png" src="{avatarUrl}" alt=""/>
+    <span class='avatar'>
+        <img class='avatar-png' src='{avatarUrl}' alt='' />
     </span>
 
-    <span onclick="window.open('https://github.com/CrazyL3gend', '_blank').focus();" class="github">
-        <img class="github-png" src="{githubUrl}" alt=""/>
+	<span onclick="window.open('https://github.com/CrazyL3gend', '_blank').focus();" class='github'>
+        <img class='github-png' src='{githubUrl}' alt='' />
     </span>
-    <span onclick="window.open('https://t.me/crazyl3gend', '_blank').focus();" class="telegram">
-        <img class="telegram-png" src="{telegramUrl}" alt=""/>
+	<span onclick="window.open('https://t.me/crazyl3gend', '_blank').focus();" class='telegram'>
+        <img class='telegram-png' src='{telegramUrl}' alt='' />
     </span>
-    <span onclick="window.open('https://vk.com/crazyl3gend', '_blank').focus();" class="vk">
-        <img class="vk-png" src="{vkUrl}" alt=""/>
+	<span onclick="window.open('https://vk.com/crazyl3gend', '_blank').focus();" class='vk'>
+        <img class='vk-png' src='{vkUrl}' alt='' />
     </span>
 
 </div>
@@ -91,13 +91,13 @@
 </style>
 
 <script>
-    const avatarUrl = new URL('/static/avatar.png', import.meta.url).href
-    const githubUrl = new URL('/static/github.png', import.meta.url).href
-    const telegramUrl = new URL('/static/telegram.png', import.meta.url).href
-    const vkUrl = new URL('/static/vk.png', import.meta.url).href
+	const avatarUrl = new URL('/static/avatar.png', import.meta.url).href;
+	const githubUrl = new URL('/static/github.png', import.meta.url).href;
+	const telegramUrl = new URL('/static/telegram.png', import.meta.url).href;
+	const vkUrl = new URL('/static/vk.png', import.meta.url).href;
 
-    // eslint-disable-next-line no-unused-vars
-    function openInNewTab(url) {
-        window.open(url, '_blank').focus();
-    }
+	// eslint-disable-next-line no-unused-vars
+	function openInNewTab(url) {
+		window.open(url, '_blank').focus();
+	}
 </script>
